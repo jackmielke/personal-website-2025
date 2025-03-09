@@ -5,19 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack Mielke</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Jack Mielke</h1>
-        </header>
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img src="Jack enjoying the mountains.jpg" alt="Jack in the mountains" class="profile-image">
+                <div class="image-overlay"></div>
+            </div>
+            <header>
+                <h1 class="name">Jack Mielke</h1>
+            </header>
+        </div>
+        
         <main>
-            <p class="welcome">Hi! Welcome to my world :) 🌎</p>
+            <p class="welcome">Hi! Welcome to my world <span class="emoji-bounce">:) 🌎</span></p>
             
             <div class="interests">
                 <p>I love <span id="word-filter">humans</span></p>
             </div>
+
+            <div class="interactive-element">
+                <div class="pulse-circle"></div>
+                <p>Explore my interests</p>
+            </div>
         </main>
+
+        <footer>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
